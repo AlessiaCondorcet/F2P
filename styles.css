@@ -64,7 +64,15 @@ header h1 {
     padding: 40px;
     text-align: center;
     background-color: #e9ecef;
+    background-image: url('images/poule-background.jpg');
+    background-size: cover; /* Pour couvrir toute la section */
+    background-position: center; /* Centrer l'image */
 }
+#presentation {
+    #padding: 40px;
+    #text-align: center;
+    #background-color: #e9ecef;
+#}
 
 .cadre {
     background-color: white;
