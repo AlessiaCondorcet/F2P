@@ -1,0 +1,139 @@
+/* Styles de base */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Barre de navigation horizontale */
+nav {
+    background-color: #00A38E; /* Couleur mise à jour */
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a i {
+    margin-right: 8px;
+}
+
+nav ul li a:hover {
+    background-color: #008774; /* Couleur survol mise à jour */
+    color: #f4f4f9;
+}
+
+/* En-tête */
+header {
+    background-color: #00A38E; /* Couleur mise à jour */
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Section présentation du projet avec cadre */
+#presentation {
+    padding: 40px;
+    text-align: center;
+    background-color: #e9ecef;
+}
+
+.cadre {
+    background-color: white;
+    border: 2px solid #00A38E; /* Bordure mise à jour */
+    border-radius: 8px;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cadre h2 {
+    color: #00A38E; /* Couleur mise à jour */
+    font-size: 2em;
+}
+
+.cadre p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Section d'avancement du projet */
+#avancement {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#avancement h2 {
+    color: #00A38E; /* Couleur mise à jour */
+    font-size: 2em;
+}
+
+/* Styles pour la barre de progression */
+.progress-bar-container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.progress-bar {
+    background-color: #e9ecef;
+    border-radius: 20px;
+    height: 30px;
+    width: 100%;
+    position: relative;
+}
+
+.progress {
+    background-color: #00A38E; /* Couleur de la barre de progression */
+    height: 100%;
+    border-radius: 20px;
+    transition: width 0.5s ease-in-out;
+}
+
+#avancement p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #00A38E; /* Couleur mise à jour */
+    color: white;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
