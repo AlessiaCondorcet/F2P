@@ -97,36 +97,31 @@ header h1 {
 #equipe h2 {
     color: #00A38E; /* Couleur mise à jour */
     font-size: 2em;
+    margin-bottom: 30px;
+}
+
+/* Grille pour l'équipe */
+.grid-equipe {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Grille responsive */
+    gap: 20px;
+    justify-items: center; /* Centrer les membres dans la grille */
 }
 
 .membre {
     background-color: white;
-    margin: 15px;
     padding: 25px;
     border-radius: 8px;
-    display: inline-block;
-    vertical-align: top; /* S'assure que les membres sont alignés correctement */
-    width: calc(33.333% - 30px); /* Trois cadres par ligne, ajustement des marges */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Occupe toute la largeur de la colonne dans la grille */
+    max-width: 250px; /* Limite la largeur pour garder un design propre */
+    text-align: center;
 }
-
-/* S'assure que les cadres se réorganisent pour les petits écrans */
-@media (max-width: 768px) {
-    .membre {
-        width: calc(50% - 30px); /* Deux cadres par ligne pour tablettes */
-    }
-}
-
-@media (max-width: 480px) {
-    .membre {
-        width: calc(100% - 30px); /* Un cadre par ligne pour mobiles */
-    }
-}
-
 
 .membre h3 {
     font-size: 1.5em;
     color: #00A38E; /* Couleur mise à jour */
+    margin-bottom: 10px;
 }
 
 .membre p {
