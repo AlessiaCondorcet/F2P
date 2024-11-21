@@ -119,6 +119,12 @@ header h1 {
     color: #777;
 }
 
+.membre-icon {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
 /* Section barre d'avancement */
 #avancement {
     padding: 40px;
