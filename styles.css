@@ -126,6 +126,14 @@ header h1 {
     margin-bottom: 10px;
 }
 
+.membre img {
+    width: 100%; /* L'image occupe toute la largeur disponible de son conteneur */
+    height: auto; /* Garde les proportions de l'image */
+    border-radius: 50%; /* Pour arrondir les bords de l'image, si nécessaire */
+    max-width: 250px; /* Limiter la taille maximale de l'image pour qu'elle ne soit pas trop grande */
+    margin-bottom: 15px; /* Un peu d'espace sous l'image */
+}
+
 /* Section barre d'avancement */
 #avancement {
     padding: 40px;
