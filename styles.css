@@ -124,7 +124,7 @@ footer {
     text-align: center;
     background-color: #00A38E; /* Couleur mise à jour */
     color: white;
-    padding: 5px 0; /* Réduction de l'espace vertical */
+    padding: 3px 0; /* Réduction de l'espace vertical */
     font-size: 0.9em; /* Taille de police plus petite pour rendre la barre plus discrète */
     position: fixed;
     width: 100%;
