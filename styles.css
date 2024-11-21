@@ -9,7 +9,7 @@ body {
 
 /* Barre de navigation horizontale */
 nav {
-    background-color: #FF9A00; /* Couleur mise à jour */
+    background-color: #D2B48C; /* Couleur mise à jour */
     text-align: center;
     padding: 15px 0;
 }
@@ -49,7 +49,7 @@ nav ul li a:hover {
 
 /* En-tête */
 header {
-    background-color: #FF9A00; /* Couleur mise à jour */
+    background-color: #D2B48C; /* Couleur mise à jour */
     color: white;
     text-align: center;
     padding: 40px 0;
@@ -69,7 +69,7 @@ header h1 {
 
 .cadre {
     background-color: white;
-    border: 2px solid #FF9A00; /* Bordure mise à jour */
+    border: 2px solid #D2B48C; /* Bordure mise à jour */
     border-radius: 8px;
     padding: 20px;
     width: 80%;
@@ -78,7 +78,7 @@ header h1 {
 }
 
 .cadre h2 {
-    color: #FF9A00; /* Couleur mise à jour */
+    color: #D2B48C; /* Couleur mise à jour */
     font-size: 2em;
 }
 
@@ -96,7 +96,7 @@ header h1 {
 }
 
 #equipe h2 {
-    color: #FF9A00; /* Couleur mise à jour */
+    color: #D2B48C; /* Couleur mise à jour */
     font-size: 2em;
 }
 
@@ -112,7 +112,7 @@ header h1 {
 
 .membre h3 {
     font-size: 1.5em;
-    color: #FF9A00; /* Couleur mise à jour */
+    color: #D2B48C; /* Couleur mise à jour */
 }
 
 .membre p {
@@ -156,7 +156,7 @@ header h1 {
 }
 
 .progress {
-    background-color: #FF9A00; /* Couleur de la barre */
+    background-color: #D2B48C; /* Couleur de la barre */
     height: 100%;
     border-radius: 5px;
 }
