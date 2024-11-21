@@ -87,43 +87,36 @@ header h1 {
     line-height: 1.6;
 }
 
-/* Section d'avancement du projet */
-#avancement {
+/* Section équipe */
+#equipe {
     padding: 40px;
     background-color: #f9f9f9;
     text-align: center;
 }
 
-#avancement h2 {
+#equipe h2 {
     color: #00A38E; /* Couleur mise à jour */
     font-size: 2em;
 }
 
-/* Styles pour la barre de progression */
-.progress-bar-container {
-    width: 80%;
-    margin: 20px auto;
-    text-align: center;
+.membre {
+    background-color: white;
+    margin: 15px;
+    padding: 25px;
+    border-radius: 8px;
+    display: inline-block;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.progress-bar {
-    background-color: #e9ecef;
-    border-radius: 20px;
-    height: 30px;
-    width: 100%;
-    position: relative;
+.membre h3 {
+    font-size: 1.5em;
+    color: #00A38E; /* Couleur mise à jour */
 }
 
-.progress {
-    background-color: #00A38E; /* Couleur de la barre de progression */
-    height: 100%;
-    border-radius: 20px;
-    transition: width 0.5s ease-in-out;
-}
-
-#avancement p {
-    font-size: 1.2em;
-    color: #555;
+.membre p {
+    font-size: 1em;
+    color: #777;
 }
 
 /* Footer */
@@ -136,4 +129,3 @@ footer {
     width: 100%;
     bottom: 0;
 }
-
