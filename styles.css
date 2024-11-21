@@ -105,9 +105,24 @@ header h1 {
     padding: 25px;
     border-radius: 8px;
     display: inline-block;
-    width: 250px;
+    vertical-align: top; /* S'assure que les membres sont alignés correctement */
+    width: calc(33.333% - 30px); /* Trois cadres par ligne, ajustement des marges */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+/* S'assure que les cadres se réorganisent pour les petits écrans */
+@media (max-width: 768px) {
+    .membre {
+        width: calc(50% - 30px); /* Deux cadres par ligne pour tablettes */
+    }
+}
+
+@media (max-width: 480px) {
+    .membre {
+        width: calc(100% - 30px); /* Un cadre par ligne pour mobiles */
+    }
+}
+
 
 .membre h3 {
     font-size: 1.5em;
