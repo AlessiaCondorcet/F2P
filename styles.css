@@ -119,6 +119,38 @@ header h1 {
     color: #777;
 }
 
+/* Section barre d'avancement */
+#avancement {
+    padding: 40px;
+    background-color: #f4f4f9;
+    text-align: center;
+}
+
+.progress-bar-container {
+    width: 80%;  /* Ajuste la largeur de la barre d'avancement */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.progress-bar {
+    background-color: #e9ecef; /* Couleur de fond de la barre */
+    border-radius: 5px;
+    height: 30px; /* Hauteur de la barre */
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.progress {
+    background-color: #00A38E; /* Couleur de la barre */
+    height: 100%;
+    border-radius: 5px;
+}
+
+#avancement p {
+    font-size: 1.2em;
+    color: #333;
+}
+
 /* Footer */
 footer {
     text-align: center;
