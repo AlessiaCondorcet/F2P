@@ -43,7 +43,7 @@ nav ul li a i {
 }
 
 nav ul li a:hover {
-    background-color:  #FF7F00; /* Couleur survol mise à jour */
+    background-color:  #AA7D42; /* Couleur survol mise à jour */
     color: #f4f4f9;
 }
 
@@ -169,7 +169,7 @@ header h1 {
 /* Footer */
 footer {
     text-align: center;
-    background-color: #8A7F64;
+    background-color: #AA7D42;
     color: white;
     padding: 5px 0;
     font-size: 0.9em;
