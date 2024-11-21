@@ -108,19 +108,6 @@ header h1 {
     justify-items: center; /* Centrer les membres dans la grille */
 }
 
-/* Pour les petits écrans : 1 ou 2 colonnes */
-@media (max-width: 1024px) {
-    .grid-equipe {
-        grid-template-columns: repeat(2, 1fr); /* 2 colonnes pour les tablettes et petits écrans */
-    }
-}
-
-@media (max-width: 768px) {
-    .grid-equipe {
-        grid-template-columns: 1fr; /* 1 colonne pour les très petits écrans (mobiles) */
-    }
-}
-
 .membre {
     background-color: white;
     padding: 25px;
