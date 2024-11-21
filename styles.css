@@ -154,12 +154,25 @@ header h1 {
 /* Footer */
 footer {
     text-align: center;
-    background-color: #00A38E; /* Couleur mise à jour */
+    background-color: #00A38E;
     color: white;
-    padding: 3px 0; /* Réduction de l'espace vertical */
-    font-size: 0.9em; /* Taille de police plus petite pour rendre la barre plus discrète */
+    padding: 10px 0;
+    font-size: 0.9em;
     position: fixed;
     width: 100%;
     bottom: 0;
 }
+
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Espacement entre les logos */
+    margin-top: 10px;
+}
+
+.logo {
+    width: 50px;  /* Taille des logos */
+    height: auto;
+}
+
 
