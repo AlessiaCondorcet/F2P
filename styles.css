@@ -8,6 +8,16 @@ body {
     padding-right: 25px;
 }
 
+/* Appliquer Poppins aux titres */
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Appliquer Georgia au texte */
+body, p, li {
+    font-family: 'Georgia', serif;
+}
+
 /* Barre de navigation horizontale */
 nav {
     background-color: #D2B48C;
@@ -141,7 +151,12 @@ header h1 {
     height: auto; 
     border-radius: 50%; 
     max-width: 250px; 
-    margin-bottom: 15px; 
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.membre img:hover {
+    transform: scale(1.05); /* Agrandir légèrement l'image au survol */
 }
 
 /* Section barre d'avancement */
