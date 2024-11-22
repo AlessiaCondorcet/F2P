@@ -235,34 +235,29 @@ header h1 {
 
 /* Footer */
 footer {
-    text-align: center;
-    background-color: #AA7D42;
+    background-color: #AA7D42; 
     color: white;
     padding: 5px 0;
-    padding-left: 10px; 
+    text-align: center;
     font-size: 0.9em;
-    position: fixed;
-    width: 80%; /* largeur identique à celle du contenu principal */
-    bottom: 0;
-    left: 50%; /* Centrer le footer horizontalement */
-    transform: translateX(-50%); /* Déplacer le footer de moitié pour le centrer */
+    position: relative;
+    width: 100%;
+    max-width: 1200px; /* Limite la largeur à celle du cadre */
+    margin: 0 auto; /* Centre le footer dans le cadre */
+}
+
+footer .logos {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    gap: 20px;
+    margin-right: 40px;
 }
 
-/* Container des logos dans le footer */
-.logos {
-    display: flex;
-    justify-content: flex-end; 
-    gap: 20px; 
-    margin-right: 40px; /* Marge pour éviter que les logos soient trop proches du bord */
+footer .logo {
+    width: 30px; /* Ajuste la taille des logos */
+    height: auto;
 }
 
-.logo {
-    width: 30px; 
-    height: auto; 
-}
 
 
 
