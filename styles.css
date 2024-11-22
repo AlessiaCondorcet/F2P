@@ -223,21 +223,20 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: block;  /* Modifie le display pour éviter des conflits de positionnement */
 }
 
 /* Logos */
 .logos {
-    display: flex;
-    justify-content: flex-start; /* Alignement à gauche des logos */
+    display: inline-block;  /* Utilisation de inline-block pour éviter la flexbox */
     gap: 20px;
     margin-left: 20px; /* Décalage vers la gauche pour éviter qu'ils soient trop proches de la barre de défilement */
+    margin-bottom: 5px;  /* Pour éviter que les logos soient trop proches du bas */
 }
 
 .logo {
     width: 30px;
     height: auto;
 }
+
 
