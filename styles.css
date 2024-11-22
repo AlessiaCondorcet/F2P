@@ -3,9 +3,9 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #f9f5e3;
     margin: 0;
-    padding: 0 20px; /* Ajoute 20px de padding à gauche et à droite */
+    padding: 0 20px;
     color: #4e5d6d;
-    padding-right: 20px; /* Ajoute 20px de padding à droite pour éviter que le contenu soit collé à la barre de défilement */
+    padding-right: 25px;
 }
 
 /* Barre de navigation horizontale */
@@ -13,7 +13,7 @@ nav {
     background-color: #D2B48C;
     text-align: center;
     padding: 15px 0;
-    border-bottom: 2px solid #AA7D42; /* Ajoute une bordure sous la navbar */
+    border-bottom: 2px solid #AA7D42;
 }
 
 nav ul {
@@ -41,17 +41,17 @@ nav ul li a {
 
 nav ul li a i {
     margin-right: 8px;
-    font-size: 1.5em; /* Augmenter la taille de l'icône (1.5 fois la taille de base) */
+    font-size: 1.5em;
 }
 
 nav ul li a:hover {
-    background-color:  #AA7D42; /* Couleur survol mise à jour */
+    background-color:  #AA7D42;
     color: #f4f4f9;
 }
 
 /* En-tête */
 header {
-    background-color: #D2B48C; /* Couleur mise à jour */
+    background-color: #D2B48C;
     color: white;
     text-align: center;
     padding: 40px 0;
@@ -71,7 +71,7 @@ header h1 {
 
 .cadre {
     background-color: white;
-    border: 2px solid #D2B48C; /* Bordure mise à jour */
+    border: 2px solid #D2B48C;
     border-radius: 8px;
     padding: 20px;
     width: 80%;
@@ -80,7 +80,7 @@ header h1 {
 }
 
 .cadre h2 {
-    color: #D2B48C; /* Couleur mise à jour */
+    color: #D2B48C;
     font-size: 2em;
 }
 
@@ -95,11 +95,11 @@ header h1 {
     padding: 40px;
     background-color: #f9f9f9;
     text-align: center;
-    margin-bottom: 40px; /* Ajoute 40px d'espace entre la section équipe et le footer */
+    margin-bottom: 40px; 
 }
 
 #equipe h2 {
-    color: #D2B48C; /* Couleur mise à jour */
+    color: #D2B48C; 
     font-size: 2em;
 }
 
@@ -115,7 +115,7 @@ header h1 {
 
 .membre h3 {
     font-size: 1.5em;
-    color: #D2B48C; /* Couleur mise à jour */
+    color: #D2B48C;
 }
 
 .membre p {
@@ -130,11 +130,11 @@ header h1 {
 }
 
 .membre img {
-    width: 100%; /* L'image occupe toute la largeur disponible de son conteneur */
-    height: auto; /* Garde les proportions de l'image */
-    border-radius: 50%; /* Pour arrondir les bords de l'image, si nécessaire */
-    max-width: 250px; /* Limiter la taille maximale de l'image pour qu'elle ne soit pas trop grande */
-    margin-bottom: 15px; /* Un peu d'espace sous l'image */
+    width: 100%; 
+    height: auto; 
+    border-radius: 50%; 
+    max-width: 250px; 
+    margin-bottom: 15px; 
 }
 
 /* Section barre d'avancement */
@@ -145,21 +145,21 @@ header h1 {
 }
 
 .progress-bar-container {
-    width: 80%;  /* Ajuste la largeur de la barre d'avancement */
+    width: 80%;  
     margin: 0 auto;
     text-align: center;
 }
 
 .progress-bar {
-    background-color: #e9ecef; /* Couleur de fond de la barre */
+    background-color: #e9ecef; 
     border-radius: 5px;
-    height: 30px; /* Hauteur de la barre */
+    height: 30px; 
     width: 100%;
-    margin-bottom: 20px; /* Ajoute de l'espace sous la barre de progression */
+    margin-bottom: 20px; 
 }
 
 .progress {
-    background-color: #D2B48C; /* Couleur de la barre */
+    background-color: #D2B48C; 
     height: 100%;
     border-radius: 5px;
 }
@@ -175,7 +175,7 @@ footer {
     background-color: #AA7D42;
     color: white;
     padding: 5px 0;
-    padding-left: 10px; /* Ajoute 10px de padding à gauche */
+    padding-left: 10px; 
     font-size: 0.9em;
     position: fixed;
     width: 100%;
@@ -187,14 +187,14 @@ footer {
 
 .logos {
     display: flex;
-    justify-content: flex-end; /* Aligner les logos à droite */
-    gap: 20px; /* Espacement entre les logos */
-     margin-right: 20px; /* Ajoute 20px de marge à droite des logos */
+    justify-content: flex-end; 
+    gap: 20px; 
+     margin-right: 40px; 
 }
 
 .logo {
-    width: 30px; /* Taille plus petite pour les logos */
-    height: auto; /* Garder la proportion */
+    width: 30px; 
+    height: auto; 
 }
 
 
