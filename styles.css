@@ -145,8 +145,9 @@ header h1 {
 }
 
 .progress-bar-container {
+    position: relative;
     width: 80%;  
-    margin: 0 auto;
+    margin: 20px auto;
     text-align: center;
 }
 
@@ -156,12 +157,26 @@ header h1 {
     height: 30px; 
     width: 100%;
     margin-bottom: 20px; 
+    position: relative;
 }
 
 .progress {
     background-color: #D2B48C; 
     height: 100%;
     border-radius: 5px;
+}
+
+.progress-icon {
+    position: absolute;
+    top: -25px; /* Ajuste pour que les icônes soient bien placées */
+}
+
+.icon-egg {
+    left: -20px; /* Place l'icône d'œuf au début de la barre */
+}
+
+.icon-chicken {
+    right: -25px; /* Place l'icône de poule à la fin de la barre */
 }
 
 #avancement p {
@@ -219,7 +234,8 @@ footer {
     color: white;
     padding: 5px 0;
     padding-left: 10px; 
-    font-size: 0.9em;
+    margin-left: 10px;
+    font-size: 1.2em;
     position: fixed;
     width: 100%;
     bottom: 0;
