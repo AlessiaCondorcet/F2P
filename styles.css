@@ -299,37 +299,30 @@ footer p {
     .logo {
         width: 50px; /* Agrandit légèrement les logos */
     }
-
-    /* Ajustement de la section équipe */
-    #equipe {
-        padding: 20px;
+    /* Section équipe */
+    #equipe .membre {
+        width: 90%; /* Augmente la largeur des cases pour les centrer sur mobile */
+        margin: 0 auto; /* Centre les cases */
+        display: block; /* Évite que les membres soient côte à côte */
     }
-
-    .membre {
-        width: 100%; /* Utilise toute la largeur disponible */
-        margin-bottom: 20px;
-    }
-
+    
     .membre img {
         width: 150px; /* Ajuste la taille des images */
         height: 150px;
     }
-
-    /* Section actualités – ajuste la taille des cadres */
+    
+    /* Section actualités */
     .actualite {
-        flex-direction: column; /* Affiche les éléments en colonne */
-        align-items: center;
-        padding: 20px;
-        width: 100%; /* Utilise toute la largeur disponible */
-        margin-bottom: 20px;
+        width: 90%; /* Ajuste la largeur des cases */
+        margin: 0 auto; /* Centre les actualités */
+        flex-direction: column; /* Aligne l'image et le texte verticalement */
     }
 
     .actualite img {
-        width: 100%; /* Image occupe toute la largeur du cadre */
-        height: auto;
-        margin: 0 0 15px 0; /* Ajuste les marges pour l'image */
+        width: 100%; /* Ajuste la taille de l'image */
+        margin-bottom: 15px; /* Espace sous l'image */
     }
-
+}
     .description {
         text-align: center;
     }
