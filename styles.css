@@ -233,7 +233,7 @@ footer {
     display: flex; /* Utilisation de flexbox pour aligner les logos */
     justify-content: flex-end; /* Alignement des logos à droite */
     gap: 10px; /* Espacement entre les logos */
-    margin-right: 100px; /* Espacement à droite pour éviter que les logos ne soient coupés par la barre de défilement */
+    margin-right: 70px; /* Espacement à droite pour éviter que les logos ne soient coupés par la barre de défilement */
 }
 
 .logo {
