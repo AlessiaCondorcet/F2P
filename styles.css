@@ -269,41 +269,56 @@ footer p {
 }
 
 @media (max-width: 768px) {
-    /* Pour recentrer les éléments */
-    body {
-        padding: 0 10px;
+    /* La barre de navigation occupe toute la largeur */
+    nav {
+        width: 100%;
+        padding: 10px 0;
+        margin: 0;
+        overflow: hidden;
     }
 
-    /* Ajuster la taille des logos dans le footer */
-    .logos img {
-        width: 50px; /* Redimensionner les logos pour petits écrans */
-        height: auto;
-    }
-
-    /* Correction de l'image dans la section Actualités */
-    .actualite img {
-        width: 100px;
-        height: auto;
-    }
-
-    /* Éviter que les éléments soient trop centrés à droite */
     nav ul {
+        padding: 0;
+        margin: 0;
+        width: 100%;
         justify-content: space-around;
+        display: flex;
     }
 
-    /* Footer plus compact */
+    nav ul li {
+        margin: 0;
+    }
+
+    nav ul li a {
+        padding: 8px 12px;
+        font-size: 1em;
+    }
+
+    /* Le footer occupe toute la largeur et se centre */
     footer {
-        flex-direction: column;
-        padding: 10px;
+        width: 100%;
+        padding: 10px 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-between; /* Ajuster la disposition */
+        flex-wrap: wrap; /* Pour éviter que les logos ne se superposent */
     }
 
-    .logos {
-        justify-content: center; /* Centrer les logos dans le footer */
+    /* Assurer que les logos ne dépassent pas et s'ajustent bien */
+    .logos img {
+        width: 40px; /* Adapter la taille des logos pour petits écrans */
+        margin: 5px;
     }
 
-    /* Espacement entre les blocs dans l'équipe */
-    .membre {
-        margin: 10px auto;
-        width: 80%;
+    /* Supprimer tout débordement horizontal */
+    body, html {
+        overflow-x: hidden;
+    }
+
+    /* Les éléments prennent toute la largeur sans scroll horizontal */
+    .container, .cadre {
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box; /* S'assurer que le padding est inclus dans la largeur */
     }
 }
