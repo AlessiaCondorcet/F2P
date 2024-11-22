@@ -242,7 +242,7 @@ footer {
     font-size: 0.8em;  /* Taille de police plus petite pour réduire la hauteur */
     position: fixed;  /* Fixe le footer au bas de la fenêtre */
     bottom: 0;  /* Assure que le footer soit toujours en bas */
-    left: 0;  /* Aligne le footer à gauche */
+    left: 50;  /* Aligne le footer à gauche */
     width: 100%;  /* Assure que le footer occupe toute la largeur */
     max-width: 1200px;  /* Garde la largeur du footer dans les limites du cadre principal */
     margin: 0 auto;  /* Centrer le footer */
