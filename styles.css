@@ -268,20 +268,32 @@ footer p {
     height: auto;
 }
 
+/* Styles pour les petits écrans */
 @media (max-width: 768px) {
-    /* La barre de navigation occupe toute la largeur */
+
+    /* Centrer le contenu */
+    body, html {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden; /* Pour éviter tout débordement horizontal */
+    }
+
+    /* Forcer la barre de navigation à occuper toute la largeur de l'écran */
     nav {
         width: 100%;
         padding: 10px 0;
-        margin: 0;
-        overflow: hidden;
+        margin: 0 auto; /* S'assurer que la nav est centrée */
+        background-color: #D2B48C; /* Garde ta couleur de fond */
     }
 
+    /* Centrer les éléments du menu */
     nav ul {
         padding: 0;
         margin: 0;
         width: 100%;
-        justify-content: space-around;
+        justify-content: space-around; /* Assure une répartition uniforme des éléments */
         display: flex;
     }
 
@@ -294,31 +306,36 @@ footer p {
         font-size: 1em;
     }
 
-    /* Le footer occupe toute la largeur et se centre */
+    /* Empêcher le footer de dépasser et l'ajuster à l'écran */
     footer {
         width: 100%;
         padding: 10px 0;
-        margin: 0;
+        margin: 0 auto; /* Centrer le footer */
         display: flex;
-        justify-content: space-between; /* Ajuster la disposition */
-        flex-wrap: wrap; /* Pour éviter que les logos ne se superposent */
+        justify-content: space-between;
+        align-items: center; /* Centrer verticalement */
+        flex-wrap: wrap; /* Pour que les logos ne se superposent pas */
+        background-color: #AA7D42; /* Garder la couleur du footer */
     }
 
-    /* Assurer que les logos ne dépassent pas et s'ajustent bien */
+    /* Assurer que les logos ne dépassent pas et sont alignés */
     .logos img {
-        width: 40px; /* Adapter la taille des logos pour petits écrans */
+        width: 40px; /* Adapter la taille des logos */
         margin: 5px;
     }
 
-    /* Supprimer tout débordement horizontal */
-    body, html {
-        overflow-x: hidden;
+    /* Centrer le contenu principal */
+    .container, .cadre {
+        width: 100%; /* S'assure que les éléments prennent toute la largeur */
+        max-width: 100%; /* Empêcher de dépasser */
+        margin: 0 auto;
+        padding: 0 10px;
+        box-sizing: border-box;
     }
 
-    /* Les éléments prennent toute la largeur sans scroll horizontal */
-    .container, .cadre {
-        width: 100%;
-        padding: 0 10px;
-        box-sizing: border-box; /* S'assurer que le padding est inclus dans la largeur */
+    /* Pour éviter trop de blanc autour */
+    .cadre {
+        padding: 20px;
+        margin-bottom: 20px;
     }
 }
