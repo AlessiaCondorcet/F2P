@@ -268,3 +268,74 @@ footer p {
     height: auto;
 }
 
+/* Media Query pour les petits écrans (smartphones) */
+@media (max-width: 768px) {
+    body {
+        padding: 0 10px; /* Réduire les marges sur les téléphones */
+    }
+
+    nav ul {
+        flex-direction: column; /* Empile les éléments de la navigation au lieu de les mettre côte à côte */
+    }
+
+    nav ul li {
+        margin: 10px 0; /* Espace entre les éléments de la barre de navigation */
+    }
+
+    .cadre {
+        width: 100%; /* Les cadres blancs prennent toute la largeur sur les petits écrans */
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 2em; /* Réduire la taille du titre sur les petits écrans */
+    }
+
+    .progress-bar-container {
+        width: 100%; /* La barre d'avancement prend toute la largeur */
+    }
+
+    .progress-bar {
+        height: 20px; /* Réduire la taille de la barre de progression */
+    }
+
+    .membre {
+        width: 100%; /* Les membres de l'équipe prennent toute la largeur sur mobile */
+        margin: 10px 0; /* Espacement entre les membres */
+    }
+
+    .membre img {
+        width: 80%; /* Réduire la taille des images des membres sur mobile */
+    }
+
+    footer {
+        padding: 10px 0; /* Réduire le padding du footer */
+    }
+
+    /* Pour la section actualités */
+    .actualite {
+        width: 100%; /* L'actualité prend toute la largeur */
+        flex-direction: column; /* Empiler les images et le texte */
+        margin-bottom: 20px; /* Ajouter un espacement entre les actualités */
+    }
+
+    .actualite img {
+        width: 100%; /* Les images des actualités prennent toute la largeur */
+        margin-bottom: 15px;
+    }
+
+    .description p {
+        font-size: 1em; /* Réduire la taille du texte */
+    }
+
+    .logos {
+        flex-direction: column; /* Empiler les logos verticalement sur mobile */
+        gap: 10px; /* Espacement réduit entre les logos */
+        margin-right: 0; /* Enlever la marge droite */
+        margin-left: 0; /* Enlever la marge gauche */
+    }
+
+    .logo {
+        width: 25px; /* Réduire la taille des logos */
+    }
+}
