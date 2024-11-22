@@ -235,32 +235,39 @@ header h1 {
 
 /* Footer */
 footer {
+    text-align: center;
     background-color: #AA7D42;
     color: white;
-    padding: 2px 0;  /* Réduit la hauteur du footer */
-    text-align: left;  /* Aligne le texte à gauche */
-    font-size: 0.8em;  /* Taille de police plus petite pour réduire la hauteur */
-    position: fixed;  /* Fixe le footer au bas de la fenêtre */
-    bottom: 0;  /* Assure que le footer soit toujours en bas */
-    left: 50;  /* Aligne le footer à gauche */
-    width: 100%;  /* Assure que le footer occupe toute la largeur */
-    max-width: 1200px;  /* Garde la largeur du footer dans les limites du cadre principal */
-    margin: 0 auto;  /* Centrer le footer */
-    display: flex;  /* Utilisation de Flexbox pour aligner les éléments */
-    justify-content: space-between;  /* Aligne les éléments à gauche (texte) et à droite (logos) */
-    align-items: center;  /* Centre verticalement les éléments */
-    box-sizing: border-box;  /* Assure que le padding est inclus dans la largeur totale */
+    padding: 5px 0;
+    font-size: 0.9em;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px; /* Ajout d'un espacement pour éviter qu'il soit collé */
+    box-sizing: border-box; /* Assure que les paddings et marges sont bien pris en compte */
 }
 
-/* Logos dans le footer */
-footer .logos {
+footer p {
+    margin: 0;
+}
+
+.logos {
     display: flex;
     justify-content: flex-end;
     gap: 20px;
-    margin-right: 40px;
+    margin-right: 20px; /* Décale les logos à droite sans les coller au bord */
 }
 
-footer .logo {
-    width: 30px;  /* Taille des logos */
+.logo {
+    width: 30px;
     height: auto;
 }
+
+footer {
+    max-width: 1200px; /* Limite la largeur du footer */
+    margin: 0 auto; /* Centrer le footer horizontalement */
+}
+
