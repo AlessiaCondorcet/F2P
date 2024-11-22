@@ -65,7 +65,7 @@ header h1 {
 /* Section présentation du projet avec cadre */
 #presentation {
     padding: 40px;
-    text-align: center;
+    text-align: left;
     background-color: #e9ecef;
     margin-bottom: 0; /* Supprimer la marge inférieure pour les coller */
 }
