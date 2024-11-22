@@ -269,10 +269,14 @@ footer p {
 }
 
 /* Media Query pour les petits écrans (smartphones) */
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     body {
-        padding: 0 10px; /* Réduire les marges sur les téléphones */
+        padding: 10px; /* Réduire les marges sur les petits écrans */
     }
+    .cadre, .progress-bar-container, .actualite {
+        width: 95%; /* Prendre presque tout l'espace disponible */
+    }
+}
 
     nav ul {
         flex-direction: column; /* Empile les éléments de la navigation au lieu de les mettre côte à côte */
@@ -319,23 +323,23 @@ footer p {
         margin-bottom: 20px; /* Ajouter un espacement entre les actualités */
     }
 
-    .actualite img {
-        width: 100%; /* Les images des actualités prennent toute la largeur */
-        margin-bottom: 15px;
-    }
+   .actualite img {
+    width: auto;
+    height: auto;
+    max-width: 100px; /* Limiter la taille maximale */
+    max-height: 100px;
+}
 
     .description p {
         font-size: 1em; /* Réduire la taille du texte */
     }
 
     .logos {
-        flex-direction: column; /* Empiler les logos verticalement sur mobile */
-        gap: 10px; /* Espacement réduit entre les logos */
-        margin-right: 0; /* Enlever la marge droite */
-        margin-left: 0; /* Enlever la marge gauche */
+        flex-direction: column; /* Empile les logos de manière ordonnée */
+        align-items: center; /* Centre les logos horizontalement */
     }
-
     .logo {
-        width: 25px; /* Réduire la taille des logos */
+        width: 40px; /* Ajuster la taille pour petits écrans */
+        margin: 5px 0;
     }
 }
