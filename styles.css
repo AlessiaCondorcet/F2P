@@ -220,10 +220,11 @@ header h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .actualite img {
-    width: 150px;
-    height: 150px;
+    width: 150px; /* Largeur fixe de l'image */
+    height: 150px; /* Hauteur fixe de l'image */
     border-radius: 8px;
     margin-right: 20px;
+    object-fit: cover; /* Permet de maintenir l'aspect sans déformation */
 }
 .description {
     text-align: left;
@@ -270,13 +271,7 @@ footer p {
 
 /* Styles pour les petits écrans */
 @media (max-width: 768px) {
-    
-    /* Centrer les éléments du body et ajuster les marges */
-    body {
-        padding: 0 10px;
-        font-size: 1em;
-    }
-
+  
     /* Barre de navigation responsive */
     nav ul {
         flex-direction: column;
@@ -287,61 +282,3 @@ footer p {
     nav ul li {
         margin: 10px 0;
     }
-
-    /* Ajustement des logos dans le footer */
-    .logos {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
-
-    .logo {
-        width: 50px; /* Agrandit légèrement les logos */
-    }
-
-    /* Ajustement de la section équipe */
-    #equipe {
-        padding: 20px;
-    }
-
-    .membre {
-        width: 100%; /* Utilise toute la largeur disponible */
-        margin-bottom: 20px;
-    }
-
-    .membre img {
-        width: 150px; /* Ajuste la taille des images */
-        height: 150px;
-    }
-    /* Section actualités – ajuste la taille des cadres */
-    .actualite {
-        flex-direction: column; /* Affiche les éléments en colonne */
-        align-items: center;
-        padding: 20px;
-        width: 100%; /* Utilise toute la largeur disponible */
-        margin-bottom: 20px;
-    }
-    .actualite img {
-        width: 100%; /* Image occupe toute la largeur du cadre */
-        height: auto;
-        margin: 0 0 15px 0; /* Ajuste les marges pour l'image */
-    }
-    .description {
-        text-align: center;
-    }
-    /* Ajustement de la section barre d'avancement */
-    .progress-bar-container {
-        width: 100%; /* Prend toute la largeur disponible */
-    }
-    /* Footer responsive */
-    footer {
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
-        height: auto;
-    }
-    footer p {
-        margin-bottom: 10px;
-        text-align: center;
-    }
-}
