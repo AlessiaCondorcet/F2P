@@ -70,6 +70,12 @@ header h1 {
     margin-bottom: 0; /* Supprimer la marge inférieure pour les coller */
 }
 
+#presentation h2 {
+    text-align: center;  /* Le titre sera centré */
+    color: #D2B48C;
+    font-size: 2em;
+}
+
 .cadre {
     background-color: white;
     border: 2px solid #D2B48C;
