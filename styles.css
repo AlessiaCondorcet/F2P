@@ -96,7 +96,6 @@ header h1 {
     background-color: #f9f9f9;
     text-align: center;
     margin-bottom: 40px; 
-    padding-bottom: 60px;
 }
 
 #equipe h2 {
@@ -146,11 +145,9 @@ header h1 {
 }
 
 .progress-bar-container {
-    position: relative;
     width: 80%;  
-    margin: 20px auto;
+    margin: 0 auto;
     text-align: center;
-    margin-bottom: 20px;
 }
 
 .progress-bar {
@@ -159,26 +156,12 @@ header h1 {
     height: 30px; 
     width: 100%;
     margin-bottom: 20px; 
-    position: relative;
 }
 
 .progress {
     background-color: #D2B48C; 
     height: 100%;
     border-radius: 5px;
-}
-
-.progress-icon {
-    position: absolute;
-    top: -25px; /* Ajuste pour que les icônes soient bien placées */
-}
-
-.icon-egg {
-    left: -20px; /* Place l'icône d'œuf au début de la barre */
-}
-
-.icon-chicken {
-    right: -25px; /* Place l'icône de poule à la fin de la barre */
 }
 
 #avancement p {
@@ -192,13 +175,11 @@ header h1 {
     background-color: #f9f9f9;
     text-align: center;
 }
-
 #actualites h2 {
     color: #D2B48C; /* Couleur principale */
     font-size: 2em;
     margin-bottom: 30px;
 }
-
 .actualite {
     display: flex;
     align-items: center;
@@ -212,31 +193,26 @@ header h1 {
     margin: 0 auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 .actualite img {
     width: 150px;
     height: 150px;
     border-radius: 8px;
     margin-right: 20px;
 }
-
 .description {
     text-align: left;
 }
-
 .description p {
     font-size: 1.2em;
     color: #555;
 }
-
 /* Footer */
 footer {
     text-align: center;
     background-color: #AA7D42;
     color: white;
-    padding: 3px 0;
+    padding: 5px 0;
     padding-left: 10px; 
-    margin-left: 10px;
     font-size: 0.9em;
     position: fixed;
     width: 100%;
@@ -244,12 +220,6 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-footer i {
-    color: #D2B48C;
-    margin-left: 10px;
-    font-size: 1.2em; /* Taille de l'icône */
 }
 
 .logos {
