@@ -235,32 +235,35 @@ header h1 {
 
 /* Footer */
 footer {
-    text-align: left; /* Texte aligné à gauche */
+    text-align: center;
     background-color: #AA7D42;
     color: white;
-    padding: 5px 20px; /* Padding plus fin */
+    padding: 5px 0;
+    padding-left: 10px; 
     font-size: 0.9em;
     position: fixed;
-    width: 100%;
+    width: 80%; /* largeur identique à celle du contenu principal */
     bottom: 0;
-    display: flex;  /* Utilisation de flexbox pour aligner les éléments */
-    justify-content: space-between; /* Espacement entre les éléments à gauche et à droite */
+    left: 50%; /* Centrer le footer horizontalement */
+    transform: translateX(-50%); /* Déplacer le footer de moitié pour le centrer */
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
-    height: 40px; /* Hauteur réduite pour rendre le footer plus fin */
 }
 
-/* Logos dans le footer */
+/* Container des logos dans le footer */
 .logos {
-    display: flex; /* Utilisation de flexbox pour aligner les logos */
-    justify-content: flex-end; /* Alignement des logos à droite */
-    gap: 10px; /* Espacement entre les logos */
-    margin-right: 70px; /* Espacement à droite pour éviter que les logos ne soient coupés par la barre de défilement */
+    display: flex;
+    justify-content: flex-end; 
+    gap: 20px; 
+    margin-right: 40px; /* Marge pour éviter que les logos soient trop proches du bord */
 }
 
 .logo {
-    width: 25px; /* Taille plus petite pour les logos */
-    height: auto;
+    width: 30px; 
+    height: auto; 
 }
+
 
 
 
