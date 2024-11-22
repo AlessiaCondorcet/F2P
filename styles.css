@@ -169,6 +169,49 @@ header h1 {
     color: #333;
 }
 
+/* Section Actualités */
+#actualites {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#actualites h2 {
+    color: #D2B48C; /* Couleur principale */
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.actualite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    background-color: white;
+    border: 2px solid #D2B48C;
+    border-radius: 8px;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.actualite img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.description {
+    text-align: left;
+}
+
+.description p {
+    font-size: 1.2em;
+    color: #555;
+}
+
 /* Footer */
 footer {
     text-align: center;
