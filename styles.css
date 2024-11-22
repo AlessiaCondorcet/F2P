@@ -235,17 +235,19 @@ header h1 {
 
 /* Footer */
 footer {
-    background-color: #AA7D42; 
+    background-color: #AA7D42;
     color: white;
-    padding: 5px 0;
-    text-align: center;
-    font-size: 0.9em;
+    padding: 2px 0;  /* Réduit la hauteur du footer */
+    text-align: left;  /* Aligne le texte à gauche */
+    font-size: 0.8em;  /* Taille de police plus petite pour réduire la hauteur */
     position: relative;
     width: 100%;
-    max-width: 1200px; /* Limite la largeur à celle du cadre */
-    margin: 0 auto; /* Centre le footer dans le cadre */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 10px;  /* Ajoute un peu d'espace à gauche pour éviter que le texte soit collé au bord */
 }
 
+/* Logos dans le footer */
 footer .logos {
     display: flex;
     justify-content: flex-end;
@@ -254,9 +256,10 @@ footer .logos {
 }
 
 footer .logo {
-    width: 30px; /* Ajuste la taille des logos */
+    width: 30px;  /* Taille des logos */
     height: auto;
 }
+
 
 
 
