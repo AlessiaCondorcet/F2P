@@ -240,11 +240,16 @@ footer {
     padding: 2px 0;  /* Réduit la hauteur du footer */
     text-align: left;  /* Aligne le texte à gauche */
     font-size: 0.8em;  /* Taille de police plus petite pour réduire la hauteur */
-    position: relative;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding-left: 10px;  /* Ajoute un peu d'espace à gauche pour éviter que le texte soit collé au bord */
+    position: fixed;  /* Fixe le footer au bas de la fenêtre */
+    bottom: 0;  /* Assure que le footer soit toujours en bas */
+    left: 0;  /* Aligne le footer à gauche */
+    width: 100%;  /* Assure que le footer occupe toute la largeur */
+    max-width: 1200px;  /* Garde la largeur du footer dans les limites du cadre principal */
+    margin: 0 auto;  /* Centrer le footer */
+    display: flex;  /* Utilisation de Flexbox pour aligner les éléments */
+    justify-content: space-between;  /* Aligne les éléments à gauche (texte) et à droite (logos) */
+    align-items: center;  /* Centre verticalement les éléments */
+    box-sizing: border-box;  /* Assure que le padding est inclus dans la largeur totale */
 }
 
 /* Logos dans le footer */
@@ -259,9 +264,3 @@ footer .logo {
     width: 30px;  /* Taille des logos */
     height: auto;
 }
-
-
-
-
-
-
