@@ -269,73 +269,86 @@ footer p {
 }
 
 /* Styles pour les petits écrans */
+/* Styles pour les petits écrans (smartphones) */
 @media (max-width: 768px) {
-
-    /* Centrer le contenu */
-    body, html {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        overflow-x: hidden; /* Pour éviter tout débordement horizontal */
-    }
-
-    /* Forcer la barre de navigation à occuper toute la largeur de l'écran */
-    nav {
-        width: 100%;
-        padding: 10px 0;
-        margin: 0 auto; /* S'assurer que la nav est centrée */
-        background-color: #D2B48C; /* Garde ta couleur de fond */
-    }
-
-    /* Centrer les éléments du menu */
-    nav ul {
-        padding: 0;
-        margin: 0;
-        width: 100%;
-        justify-content: space-around; /* Assure une répartition uniforme des éléments */
-        display: flex;
-    }
-
-    nav ul li {
-        margin: 0;
-    }
-
-    nav ul li a {
-        padding: 8px 12px;
+    
+    /* Centrer les éléments du body et ajuster les marges */
+    body {
+        padding: 0 10px;
         font-size: 1em;
     }
 
-    /* Empêcher le footer de dépasser et l'ajuster à l'écran */
-    footer {
-        width: 100%;
-        padding: 10px 0;
-        margin: 0 auto; /* Centrer le footer */
-        display: flex;
-        justify-content: space-between;
-        align-items: center; /* Centrer verticalement */
-        flex-wrap: wrap; /* Pour que les logos ne se superposent pas */
-        background-color: #AA7D42; /* Garder la couleur du footer */
+    /* Barre de navigation responsive */
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    
+    nav ul li {
+        margin: 10px 0;
     }
 
-    /* Assurer que les logos ne dépassent pas et sont alignés */
-    .logos img {
-        width: 40px; /* Adapter la taille des logos */
-        margin: 5px;
+    /* Ajustement des logos dans le footer */
+    .logos {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
     }
 
-    /* Centrer le contenu principal */
-    .container, .cadre {
-        width: 100%; /* S'assure que les éléments prennent toute la largeur */
-        max-width: 100%; /* Empêcher de dépasser */
-        margin: 0 auto;
-        padding: 0 10px;
-        box-sizing: border-box;
+    .logo {
+        width: 50px; /* Agrandit légèrement les logos */
     }
 
-    /* Pour éviter trop de blanc autour */
-    .cadre {
+    /* Ajustement de la section équipe */
+    #equipe {
         padding: 20px;
+    }
+
+    .membre {
+        width: 100%; /* Utilise toute la largeur disponible */
         margin-bottom: 20px;
+    }
+
+    .membre img {
+        width: 150px; /* Ajuste la taille des images */
+        height: 150px;
+    }
+
+    /* Section actualités – ajuste la taille des cadres */
+    .actualite {
+        flex-direction: column; /* Affiche les éléments en colonne */
+        align-items: center;
+        padding: 20px;
+        width: 100%; /* Utilise toute la largeur disponible */
+        margin-bottom: 20px;
+    }
+
+    .actualite img {
+        width: 100%; /* Image occupe toute la largeur du cadre */
+        height: auto;
+        margin: 0 0 15px 0; /* Ajuste les marges pour l'image */
+    }
+
+    .description {
+        text-align: center;
+    }
+
+    /* Ajustement de la section barre d'avancement */
+    .progress-bar-container {
+        width: 100%; /* Prend toute la largeur disponible */
+    }
+
+    /* Footer responsive */
+    footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        height: auto;
+    }
+
+    footer p {
+        margin-bottom: 10px;
+        text-align: center;
     }
 }
