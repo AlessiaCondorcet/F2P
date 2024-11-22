@@ -269,7 +269,6 @@ footer p {
 }
 
 /* Styles pour les petits écrans */
-/* Styles pour les petits écrans (smartphones) */
 @media (max-width: 768px) {
     
     /* Centrer les éléments du body et ajuster les marges */
@@ -299,39 +298,41 @@ footer p {
     .logo {
         width: 50px; /* Agrandit légèrement les logos */
     }
-    /* Section équipe */
-    #equipe .membre {
-        width: 90%; /* Augmente la largeur des cases pour les centrer sur mobile */
-        margin: 0 auto; /* Centre les cases */
-        display: block; /* Évite que les membres soient côte à côte */
+
+    /* Ajustement de la section équipe */
+    #equipe {
+        padding: 20px;
     }
-    
+
+    .membre {
+        width: 100%; /* Utilise toute la largeur disponible */
+        margin-bottom: 20px;
+    }
+
     .membre img {
         width: 150px; /* Ajuste la taille des images */
         height: 150px;
     }
-    
-    /* Section actualités */
+    /* Section actualités – ajuste la taille des cadres */
     .actualite {
-        width: 90%; /* Ajuste la largeur des cases */
-        margin: 0 auto; /* Centre les actualités */
-        flex-direction: column; /* Aligne l'image et le texte verticalement */
+        flex-direction: column; /* Affiche les éléments en colonne */
+        align-items: center;
+        padding: 20px;
+        width: 100%; /* Utilise toute la largeur disponible */
+        margin-bottom: 20px;
     }
-
     .actualite img {
-        width: 100%; /* Ajuste la taille de l'image */
-        margin-bottom: 15px; /* Espace sous l'image */
+        width: 100%; /* Image occupe toute la largeur du cadre */
+        height: auto;
+        margin: 0 0 15px 0; /* Ajuste les marges pour l'image */
     }
-}
     .description {
         text-align: center;
     }
-
     /* Ajustement de la section barre d'avancement */
     .progress-bar-container {
         width: 100%; /* Prend toute la largeur disponible */
     }
-
     /* Footer responsive */
     footer {
         flex-direction: column;
@@ -339,7 +340,6 @@ footer p {
         padding: 10px;
         height: auto;
     }
-
     footer p {
         margin-bottom: 10px;
         text-align: center;
