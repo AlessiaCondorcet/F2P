@@ -3,15 +3,17 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #f9f5e3;
     margin: 0;
-    padding: 0;
+    padding: 0 20px; /* Ajoute 20px de padding à gauche et à droite */
     color: #4e5d6d;
+    padding-right: 20px; /* Ajoute 20px de padding à droite pour éviter que le contenu soit collé à la barre de défilement */
 }
 
 /* Barre de navigation horizontale */
 nav {
-    background-color: #D2B48C; /* Couleur mise à jour */
+    background-color: #D2B48C;
     text-align: center;
     padding: 15px 0;
+    border-bottom: 2px solid #008774; /* Ajoute une bordure sous la navbar */
 }
 
 nav ul {
@@ -93,6 +95,7 @@ header h1 {
     padding: 40px;
     background-color: #f9f9f9;
     text-align: center;
+    margin-bottom: 40px; /* Ajoute 40px d'espace entre la section équipe et le footer */
 }
 
 #equipe h2 {
@@ -152,7 +155,7 @@ header h1 {
     border-radius: 5px;
     height: 30px; /* Hauteur de la barre */
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 20px; /* Ajoute de l'espace sous la barre de progression */
 }
 
 .progress {
@@ -172,6 +175,7 @@ footer {
     background-color: #AA7D42;
     color: white;
     padding: 5px 0;
+    padding-left: 10px; /* Ajoute 10px de padding à gauche */
     font-size: 0.9em;
     position: fixed;
     width: 100%;
@@ -185,6 +189,7 @@ footer {
     display: flex;
     justify-content: flex-end; /* Aligner les logos à droite */
     gap: 20px; /* Espacement entre les logos */
+     margin-right: 20px; /* Ajoute 20px de marge à droite des logos */
 }
 
 .logo {
