@@ -142,6 +142,8 @@ header h1 {
     padding: 20px;
     background-color: #f4f4f9;
     text-align: center;
+    margin-top: 20px;
+    padding-bottom: 40px;
 }
 
 .progress-bar-container {
@@ -167,6 +169,7 @@ header h1 {
 #avancement p {
     font-size: 1.2em;
     color: #333;
+    margin-bottom: 60px;
 }
 
 /* Section Actualités */
