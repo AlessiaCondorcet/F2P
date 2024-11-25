@@ -284,17 +284,17 @@ footer p {
     }
 
     header h1 {
-    font-size: 1.5em;
+    font-size: 1.3em;
     }
 
     /* Présentation du projet - réduire la taille du texte */
     #presentation p {
-        font-size: 0.7em; /* Réduire la taille du texte à 90% de sa taille normale */
+        font-size: 0.65em; /* Réduire la taille du texte à 90% de sa taille normale */
     }
 
     /* Réduire la taille des titres de la présentation */
     #presentation h2 {
-        font-size: 1em; /* Réduire la taille des titres */
+        font-size: 1.em; /* Réduire la taille des titres */
     }
 
     /* Section équipe */
