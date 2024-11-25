@@ -283,6 +283,16 @@ footer p {
         margin: 10px 0;
     }
 
+    /* Présentation du projet - réduire la taille du texte */
+    #presentation p {
+        font-size: 0.9em; /* Réduire la taille du texte à 90% de sa taille normale */
+    }
+
+    /* Réduire la taille des titres de la présentation */
+    #presentation h2 {
+        font-size: 1.5em; /* Réduire la taille des titres */
+    }
+
     /* Section équipe */
     #equipe .membre {
         width: 80%; /* Largeur des cases des membres à 90% */
@@ -298,9 +308,11 @@ footer p {
     }
 
     .actualite img {
-        width: 60%; /* L'image prend toute la largeur disponible */
+        margin: 0 auto 20px auto;
+        width: 100%; /* L'image prend toute la largeur disponible */
         height: auto; /* Conserver les proportions de l'image */
         margin-bottom: 15px; /* Ajouter un espacement sous l'image */
+        object-fit: cover;
     }
 
     .description {
