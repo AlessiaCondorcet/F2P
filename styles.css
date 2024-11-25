@@ -290,7 +290,7 @@ footer p {
 
     /* Présentation du projet - réduire la taille du texte */
     #presentation p {
-        font-size: 0.55em; /* Réduire la taille du texte à 90% de sa taille normale */
+        font-size: 0.65em; /* Réduire la taille du texte à 90% de sa taille normale */
     }
 
     /* Réduire la taille des titres de la présentation */
