@@ -307,13 +307,7 @@ footer p {
     }
     
     footer {
-        flex-direction: column; /* Logos empilés sous le texte */
         padding: 10px 0; /* Ajuster le padding pour réduire la hauteur */
-    }
-
-    .logos {
-        justify-content: center; /* Centrer les logos dans le footer */
-        margin: 10px 0; /* Ajouter un espacement en haut et en bas des logos */
     }
 
     .logo {
