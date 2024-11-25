@@ -271,14 +271,52 @@ footer p {
 
 /* Styles pour les petits écrans */
 @media (max-width: 768px) {
-  
+
     /* Barre de navigation responsive */
     nav ul {
         flex-direction: column;
         align-items: center;
         padding: 0;
     }
-    
+
     nav ul li {
         margin: 10px 0;
     }
+
+    /* Section équipe */
+    #equipe .membre {
+        width: 90%; /* Largeur des cases des membres à 90% */
+        margin: 0 auto 15px; /* Centrer les cases avec margin auto */
+    }
+
+    /* Section actualités */
+    .actualite {
+        flex-direction: column; /* Empile l'image et le texte verticalement */
+        width: 90%; /* Largeur des cadres à 90% */
+        padding: 15px; /* Ajuster le padding */
+    }
+
+    .actualite img {
+        width: 100%; /* L'image prend toute la largeur disponible */
+        height: auto; /* Conserver les proportions de l'image */
+        margin-bottom: 15px; /* Ajouter un espacement sous l'image */
+    }
+
+    .description {
+        text-align: center; /* Centrer le texte de la description */
+    }
+    
+    footer {
+        flex-direction: column; /* Logos empilés sous le texte */
+        padding: 10px 0; /* Ajuster le padding pour réduire la hauteur */
+    }
+
+    .logos {
+        justify-content: center; /* Centrer les logos dans le footer */
+        margin: 10px 0; /* Ajouter un espacement en haut et en bas des logos */
+    }
+
+    .logo {
+        width: 40px; /* Ajuster la taille des logos pour plus de visibilité sur mobile */
+    }
+}
