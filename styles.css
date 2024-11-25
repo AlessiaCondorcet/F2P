@@ -285,19 +285,20 @@ footer p {
 
     /* Section équipe */
     #equipe .membre {
-        width: 90%; /* Largeur des cases des membres à 90% */
+        width: 80%; /* Largeur des cases des membres à 90% */
         margin: 0 auto 15px; /* Centrer les cases avec margin auto */
     }
 
     /* Section actualités */
     .actualite {
         flex-direction: column; /* Empile l'image et le texte verticalement */
+        align-items: center;
         width: 90%; /* Largeur des cadres à 90% */
         padding: 15px; /* Ajuster le padding */
     }
 
     .actualite img {
-        width: 100%; /* L'image prend toute la largeur disponible */
+        width: 60%; /* L'image prend toute la largeur disponible */
         height: auto; /* Conserver les proportions de l'image */
         margin-bottom: 15px; /* Ajouter un espacement sous l'image */
     }
