@@ -115,6 +115,7 @@ header h1 {
     margin: 20px auto; /* Centre l'image avec une marge en haut et en bas */
     border-radius: 8px; /* Ajoute des coins arrondis si souhaité */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajoute une ombre légère */
+    align-items: center;
 }
 
 /* Section équipe */
