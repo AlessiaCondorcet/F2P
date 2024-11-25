@@ -284,8 +284,8 @@ footer p {
     }
 
     header h1 {
-    font-size: 1.2em;
-     color: blue;
+    font-size: 1.1em;
+     color: white;
     }
 
     /* Présentation du projet - réduire la taille du texte */
@@ -295,7 +295,7 @@ footer p {
 
     /* Réduire la taille des titres de la présentation */
     #presentation h2 {
-        font-size: 0.8em; /* Réduire la taille des titres */
+        font-size: 0.7em; /* Réduire la taille des titres */
     }
 
     /* Section équipe */
