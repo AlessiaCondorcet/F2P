@@ -23,29 +23,39 @@ nav {
     background-color: #CFAE95;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 15px 40px; /* Ajuster le padding pour équilibrer les marges */
+    justify-content: center; /* Centre les éléments horizontalement */
+    padding: 15px 20px;
     border-bottom: 2px solid #a07850;
 }
 
-/* Logo plus grand */
-nav a .logo {
-    max-width: 300px; /* Agrandit la taille du logo */
-    height: auto;
-    margin-right: 50px; /* Ajuste l'espace entre le logo et la barre de navigation */
+/* Conteneur du logo et de la barre de navigation */
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; /* S'assure que la barre prend toute la largeur */
+    max-width: 1200px; /* Limite la largeur maximale pour bien centrer */
 }
 
+/* Logo plus grand */
+.logo {
+    max-width: 200px; /* Taille plus grande du logo */
+    height: auto;
+    margin-right: 50px; /* Espace entre le logo et les liens */
+}
+
+/* Style des liens de la navigation */
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
-    align-items: center; /* S'assure que les items sont bien alignés */
+    justify-content: flex-end; /* Les éléments à droite */
+    flex-grow: 1; /* Occupe tout l'espace restant */
 }
 
 nav ul li {
-    margin: 0 25px;
+    margin: 0 15px;
 }
 
 nav ul li a {
@@ -60,11 +70,6 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #f4e1d0;
     color: #4e5d6d;
-}
-
-/* Centrer les items de navigation */
-nav {
-    justify-content: space-between;
 }
 
 /* En-tête */
