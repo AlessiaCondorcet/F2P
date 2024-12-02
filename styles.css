@@ -20,7 +20,7 @@ body, p, li {
 
 /* Barre de navigation horizontale */
 nav {
-    background-color: #D2B48C;
+    background-color: #CFAE95;
     display: flex;
     align-items: center;
     text-align: center;
@@ -70,7 +70,7 @@ nav a .logo {
 
 /* En-tête */
 header {
-    background-color: #D2B48C;
+    background-color: #CFAE95;
     color: white;
     text-align: center;
     padding: 40px 0;
@@ -91,13 +91,13 @@ header h1 {
 
 #presentation h2 {
     text-align: center;  /* Le titre sera centré */
-    color: #D2B48C;
+    color: #CFAE95;
     font-size: 2em;
 }
 
 .cadre {
     background-color: white;
-    border: 2px solid #D2B48C;
+    border: 2px solid #CFAE95;
     border-radius: 8px;
     padding: 20px;
     width: 80%;
@@ -106,7 +106,7 @@ header h1 {
 }
 
 .cadre h2 {
-    color: #D2B48C;
+    color: #CFAE95;
     font-size: 2em;
 }
 
@@ -136,7 +136,7 @@ header h1 {
 }
 
 #equipe h2 {
-    color: #D2B48C; 
+    color: #CFAE95; 
     font-size: 2em;
 }
 
@@ -152,7 +152,7 @@ header h1 {
 
 .membre h3 {
     font-size: 1.5em;
-    color: #D2B48C;
+    color: #CFAE95;
 }
 
 .membre p {
@@ -210,7 +210,7 @@ header h1 {
 }
 
 .progress {
-    background-color: #D2B48C; 
+    background-color: #CFAE95; 
     height: 100%;
     border-radius: 5px;
 }
@@ -222,7 +222,7 @@ header h1 {
     text-align: center;
 }
 #actualites h2 {
-    color: #D2B48C; /* Couleur principale */
+    color: #CFAE95;
     font-size: 2em;
     margin-bottom: 30px;
 }
@@ -232,7 +232,7 @@ header h1 {
     justify-content: center;
     margin-bottom: 30px;
     background-color: white;
-    border: 2px solid #D2B48C;
+    border: 2px solid #CFAE95;
     border-radius: 8px;
     padding: 20px;
     width: 80%;
