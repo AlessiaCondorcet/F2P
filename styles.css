@@ -20,7 +20,7 @@ body, p, li {
 
 /* Barre de navigation horizontale */
 nav {
-    background-color: #CFAE95;
+    background-color: #CFAE95; /* Beige doux */
     display: flex;
     align-items: center;
     justify-content: center; /* Centre les éléments horizontalement */
@@ -28,34 +28,17 @@ nav {
     border-bottom: 2px solid #a07850;
 }
 
-/* Conteneur du logo et de la barre de navigation */
-.nav-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%; /* S'assure que la barre prend toute la largeur */
-    max-width: 1200px; /* Limite la largeur maximale pour bien centrer */
-}
-
-/* Logo plus grand */
-.logo {
-    max-width: 200px; /* Taille plus grande du logo */
-    height: auto;
-    margin-right: 50px; /* Espace entre le logo et les liens */
-}
-
-/* Style des liens de la navigation */
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: flex-end; /* Les éléments à droite */
-    flex-grow: 1; /* Occupe tout l'espace restant */
+    justify-content: space-between; /* Ajustement de l'espacement */
+    align-items: center;
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 25px;
 }
 
 nav ul li a {
@@ -63,13 +46,37 @@ nav ul li a {
     text-decoration: none;
     font-size: 1.2em;
     padding: 10px 20px;
+    display: flex;
+    align-items: center;
     border-radius: 5px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+nav ul li a i {
+    margin-right: 8px;
+    font-size: 1.5em;
+}
+
 nav ul li a:hover {
-    background-color: #f4e1d0;
+    background-color: #f4e1d0; /* Teinte beige claire */
     color: #4e5d6d;
+}
+
+nav .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centre le logo dans son container */
+    margin-right: 40px; /* Ajustement de l'espacement entre le logo et les liens */
+}
+
+nav a .logo {
+    max-width: 150px;
+    height: auto;
+}
+
+/* Centrer l'ensemble sur l'écran */
+nav {
+    justify-content: center;
 }
 
 /* En-tête */
