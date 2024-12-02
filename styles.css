@@ -21,9 +21,12 @@ body, p, li {
 /* Barre de navigation horizontale */
 nav {
     background-color: #D2B48C;
+    display: flex;
+    align-items: center;
     text-align: center;
     padding: 15px 0;
     border-bottom: 2px solid #AA7D42;
+    justify-content: flex-start;
 }
 
 nav ul {
