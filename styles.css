@@ -133,7 +133,7 @@ header h1 {
 }
 
 .logo {
-    width: 100px; /* Ajuste la largeur du logo ici */
+    width: 50px; /* Ajuste la largeur du logo ici */
     height: auto; /* Maintient les proportions de l'image */
 }
 
