@@ -341,13 +341,7 @@ footer p {
     }
     
     .image-presentation {
-        width: 150px;
-        height: auto;
-        display: block;
-        margin: 20px auto;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        align-items: center;
+        width: 50px;
     }
     
     /* Réduire la taille des titres de la présentation */
