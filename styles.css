@@ -1,7 +1,7 @@
 /* Styles de base */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #dec4b5; /* Beige clair */
+    background-color: #dec4b5; /* Beige clair assorti au fond du logo */
     margin: 0;
     padding: 0 20px;
     color: #4e5d6d;
@@ -20,7 +20,7 @@ body, p, li {
 
 /* Barre de navigation horizontale */
 nav {
-    background-color: #CFAE95; /* Beige doux */
+    background-color: #CFAE95; /* Couleur ajustée */
     display: flex;
     align-items: center;
     text-align: center;
@@ -70,7 +70,7 @@ nav a .logo {
 
 /* En-tête */
 header {
-    background-color: #CFAE95; /* Beige doux */
+    background-color: #CFAE95; /* Couleur ajustée */
     color: white;
     text-align: center;
     padding: 40px 0;
@@ -91,13 +91,13 @@ header h1 {
 
 #presentation h2 {
     text-align: center;
-    color: #CFAE95; /* Beige doux */
+    color: #CFAE95; /* Couleur ajustée */
     font-size: 2em;
 }
 
 .cadre {
     background-color: white;
-    border: 2px solid #CFAE95; /* Beige doux */
+    border: 2px solid #CFAE95; /* Couleur ajustée */
     border-radius: 8px;
     padding: 20px;
     width: 80%;
@@ -106,7 +106,7 @@ header h1 {
 }
 
 .cadre h2 {
-    color: #CFAE95; /* Beige doux */
+    color: #CFAE95; /* Couleur ajustée */
     font-size: 2em;
 }
 
@@ -132,7 +132,7 @@ header h1 {
     padding: 40px;
     background-color: #f9f9f9;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 40px; 
 }
 
 #equipe h2 {
@@ -152,7 +152,7 @@ header h1 {
 
 .membre h3 {
     font-size: 1.5em;
-    color: #CFAE95; /* Beige doux */
+    color: #CFAE95; /* Couleur ajustée */
 }
 
 .membre p {
@@ -168,9 +168,9 @@ header h1 {
 
 .membre img {
     width: 100%;
-    height: auto;
-    border-radius: 50%;
-    max-width: 250px;
+    height: auto; 
+    border-radius: 50%; 
+    max-width: 250px; 
     margin-bottom: 15px;
     transition: transform 0.3s ease;
 }
@@ -184,7 +184,7 @@ header h1 {
     padding: 20px;
     background-color: #f4f4f9;
     text-align: center;
-    margin-top: 0;
+    margin-top: 0; 
     padding-bottom: 60px;
 }
 
@@ -202,15 +202,15 @@ header h1 {
 }
 
 .progress-bar {
-    background-color: #e9ecef;
+    background-color: #e9ecef; 
     border-radius: 5px;
-    height: 30px;
+    height: 30px; 
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
 }
 
 .progress {
-    background-color: #CFAE95; /* Beige doux */
+    background-color: #CFAE95; /* Couleur ajustée */
     height: 100%;
     border-radius: 5px;
 }
@@ -221,27 +221,24 @@ header h1 {
     background-color: #f9f9f9;
     text-align: center;
 }
-
 #actualites h2 {
     color: #c66449; /* Rouge du coq */
     font-size: 2em;
     margin-bottom: 30px;
 }
-
 .actualite {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
     background-color: white;
-    border: 2px solid #CFAE95; /* Beige doux */
+    border: 2px solid #CFAE95; /* Couleur ajustée */
     border-radius: 8px;
     padding: 20px;
     width: 80%;
     margin: 0 auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 .actualite img {
     width: 150px;
     height: 150px;
@@ -249,11 +246,9 @@ header h1 {
     margin-right: 20px;
     object-fit: cover;
 }
-
 .description {
     text-align: left;
 }
-
 .description p {
     font-size: 1.2em;
     color: #555;
@@ -262,7 +257,7 @@ header h1 {
 /* Footer */
 footer {
     text-align: center;
-    background-color: #CFAE95; /* Beige doux */
+    background-color: #CFAE95; /* Couleur ajustée */
     color: white;
     padding: 5px 0;
     font-size: 0.9em;
