@@ -59,6 +59,11 @@ nav ul li a:hover {
     color: #f4f4f9;
 }
 
+nav a .logo {
+    max-width: 100px;  /* Taille du logo dans la barre de navigation */
+    height: auto;
+}
+
 /* En-tête */
 header {
     background-color: #D2B48C;
