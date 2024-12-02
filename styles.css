@@ -23,7 +23,7 @@ nav {
     background-color: #CFAE95; /* Beige doux */
     display: flex;
     align-items: center;
-    justify-content: center; /* Centre les éléments horizontalement */
+    justify-content: space-between; /* Distribue l'espace entre le logo et les liens */
     padding: 15px 20px;
     border-bottom: 2px solid #a07850;
 }
@@ -33,7 +33,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-between; /* Ajustement de l'espacement */
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -52,11 +52,6 @@ nav ul li a {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-nav ul li a i {
-    margin-right: 8px;
-    font-size: 1.5em;
-}
-
 nav ul li a:hover {
     background-color: #f4e1d0; /* Teinte beige claire */
     color: #4e5d6d;
@@ -65,14 +60,19 @@ nav ul li a:hover {
 nav .logo-container {
     display: flex;
     align-items: center;
-    justify-content: center; /* Centre le logo dans son container */
     margin-right: 40px; /* Ajustement de l'espacement entre le logo et les liens */
 }
 
 nav a .logo {
-    max-width: 150px;
+    max-width: 220px; /* Augmenter la largeur maximale du logo */
     height: auto;
 }
+
+/* Centrer l'ensemble sur l'écran */
+nav {
+    justify-content: space-between;
+}
+
 
 /* Centrer l'ensemble sur l'écran */
 nav {
