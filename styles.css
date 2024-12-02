@@ -62,16 +62,10 @@ nav ul li a:hover {
     color: #4e5d6d;
 }
 
-nav .logo-container {
-    display: flex;
-    align-items: center;
-    justify-content: center; /* Centre le logo dans son container */
-    margin-right: 40px; /* Ajustement de l'espacement entre le logo et les liens */
-}
-
 nav a .logo {
-    max-width: 150px;
-    height: auto;
+    max-width: 150px; /* Augmenter cette valeur pour agrandir le logo */
+    height: auto; /* Garde les proportions du logo */
+    margin-right: 20px; /* Espacement entre le logo et les éléments de la navbar */
 }
 
 /* Centrer l'ensemble sur l'écran */
