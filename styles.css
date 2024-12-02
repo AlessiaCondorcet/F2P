@@ -63,9 +63,9 @@ nav ul li a:hover {
 }
 
 nav a .logo {
-    max-width: 200px;  /* Taille plus grande du logo */
+    max-width: 500px;  /* Taille plus grande du logo */
     height: auto;
-    margin-right: 200px;  /* Espacement entre le logo et les éléments de la navbar */
+    margin-right: 100px;  /* Espacement entre le logo et les éléments de la navbar */
 }
 
 /* En-tête */
