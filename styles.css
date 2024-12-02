@@ -20,12 +20,12 @@ body, p, li {
 
 /* Barre de navigation horizontale */
 nav {
-    background-color: #CFAE95;
+    background-color: #d19b65;
     display: flex;
     align-items: center;
     text-align: center;
     padding: 15px 20px;
-    border-bottom: 2px solid #F1D8A5;
+    border-bottom: 2px solid #a07850;
     justify-content: space-between;
 }
 
@@ -58,8 +58,8 @@ nav ul li a i {
 }
 
 nav ul li a:hover {
-    background-color:  #F1D8A5;
-    color: #f4f4f9;
+    background-color:  #f4e1d0;
+    color: #4e5d6d;
 }
 
 nav a .logo {
@@ -70,7 +70,7 @@ nav a .logo {
 
 /* En-tête */
 header {
-    background-color: #CFAE95;
+    background-color: #d19b65;
     color: white;
     text-align: center;
     padding: 40px 0;
@@ -91,13 +91,13 @@ header h1 {
 
 #presentation h2 {
     text-align: center;  /* Le titre sera centré */
-    color: #CFAE95;
+    color: #d19b65;
     font-size: 2em;
 }
 
 .cadre {
     background-color: white;
-    border: 2px solid #CFAE95;
+    border: 2px solid #d19b65;
     border-radius: 8px;
     padding: 20px;
     width: 80%;
@@ -106,7 +106,7 @@ header h1 {
 }
 
 .cadre h2 {
-    color: #CFAE95;
+    color: #d19b65;
     font-size: 2em;
 }
 
@@ -136,7 +136,7 @@ header h1 {
 }
 
 #equipe h2 {
-    color: #CFAE95; 
+    color: #c66449; 
     font-size: 2em;
 }
 
@@ -152,7 +152,7 @@ header h1 {
 
 .membre h3 {
     font-size: 1.5em;
-    color: #CFAE95;
+    color: #d19b65;
 }
 
 .membre p {
@@ -210,7 +210,7 @@ header h1 {
 }
 
 .progress {
-    background-color: #CFAE95; 
+    background-color: #d19b65; 
     height: 100%;
     border-radius: 5px;
 }
@@ -222,7 +222,7 @@ header h1 {
     text-align: center;
 }
 #actualites h2 {
-    color: #CFAE95;
+    color: #c66449;
     font-size: 2em;
     margin-bottom: 30px;
 }
@@ -232,7 +232,7 @@ header h1 {
     justify-content: center;
     margin-bottom: 30px;
     background-color: white;
-    border: 2px solid #CFAE95;
+    border: 2px solid #d19b65;
     border-radius: 8px;
     padding: 20px;
     width: 80%;
@@ -257,7 +257,7 @@ header h1 {
 /* Footer */
 footer {
     text-align: center;
-    background-color: #F1D8A5;
+    background-color: #d19b65;
     color: white;
     padding: 5px 0;
     font-size: 0.9em;
