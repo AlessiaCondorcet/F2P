@@ -24,9 +24,9 @@ nav {
     display: flex;
     align-items: center;
     text-align: center;
-    padding: 15px 0;
+    padding: 15px 20px;
     border-bottom: 2px solid #F1D8A5;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 nav ul {
@@ -63,9 +63,9 @@ nav ul li a:hover {
 }
 
 nav a .logo {
-    max-width: 300px;  /* Taille plus grande du logo */
+    max-width: 200px;  /* Taille plus grande du logo */
     height: auto;
-    margin-right: 70px;  /* Espacement entre le logo et les éléments de la navbar */
+    margin-right: 200px;  /* Espacement entre le logo et les éléments de la navbar */
 }
 
 /* En-tête */
