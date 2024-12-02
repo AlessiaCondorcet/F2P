@@ -122,19 +122,13 @@ header h1 {
 }
 
 .image-presentation {
-    width: 100%;
-    max-width: 600px;
+    width: 100px;
     height: auto;
     display: block;
     margin: 20px auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     align-items: center;
-}
-
-.logo {
-    width: 50px; /* Ajuste la largeur du logo ici */
-    height: auto; /* Maintient les proportions de l'image */
 }
 
 /* Section équipe */
