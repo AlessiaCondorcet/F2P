@@ -339,7 +339,17 @@ footer p {
     #presentation p {
         font-size: 0.9em; /* Réduire la taille du texte à 90% de sa taille normale */
     }
-
+    
+    .image-presentation {
+        width: 150px;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        align-items: center;
+    }
+    
     /* Réduire la taille des titres de la présentation */
     #presentation h2 {
         font-size: 1.5em; /* Réduire la taille des titres */
