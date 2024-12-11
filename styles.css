@@ -1,7 +1,9 @@
 /* Styles de base */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #dec4b5; /* Beige clair assorti au fond du logo */
+    background-image: url('/images/background.png');
+    background-size: cover; /* Ajuste pour couvrir l'écran */
+    background-repeat: repeat; /* Répète le motif pour remplir tout l'espace */
     margin: 0;
     padding: 0 20px;
     color: #4e5d6d;
