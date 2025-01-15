@@ -2,7 +2,7 @@
 body {
     font-family: 'Arial', sans-serif;
     background-image: url('images//background.png');
-    background-size: 480px 270px;
+    background-size: 240px 135px;
     background-repeat: repeat; /* Répète le motif pour remplir tout l'espace */
     margin: 0;
     padding: 0 20px;
