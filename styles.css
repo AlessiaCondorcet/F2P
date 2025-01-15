@@ -294,23 +294,25 @@ footer p {
     width: 30px;
     height: auto;
 }
-.logo .overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.6); /* Fond semi-transparent */
-    color: white;
-    text-align: center;
-    padding: 10px;
-    font-size: 1.2em;
-    opacity: 0; /* Le texte est caché par défaut */
-    transition: opacity 0.3s ease;
-    width: 100%;
-}
 
 .logo:hover .overlay {
     opacity: 1; /* Le texte devient visible au survol */
+}
+
+.logo .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Fond semi-transparent */
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Le texte est caché par défaut */
+    transition: opacity 0.3s ease;
 }
 
 /* Styles pour les petits écrans */
